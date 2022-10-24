@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript">
+    
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AllayLand | Приватный сервер</title>
+</head>
+<body>
+
+<style type="text/css">
+  
+  @font-face {
+    font-family: 'Goldplay';
+    src: local('fonts/Goldplay SemiBold'), local('Goldplay-SemiBold'),
+        url('fonts/Goldplay-SemiBold.woff2') format('woff2'),
+        url('fonts/Goldplay-SemiBold.woff') format('woff'),
+        url('fonts/Goldplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+</style>
+
+ <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+  <section class="showcase">
+    <header>
+      <h2 class="logo">AllayLand</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="img/video.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop To </h2> 
+      <h3>Exploring The Minecraft</h3>
+      <p class="p7">Бесплатный приватный сервер с хорошим хостингом и большим онлайном! Находи новых дурзей, развивайся, отдыхай!</p>
+      <a class="p8" href="#">НАЧАТЬ!</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://youtube.com/jaer1337"><img src="img/yt.png"></a></li>
+      <li><a href="https://vk.com/allayland"><img src="img/vk.png"></a></li>
+      <li><a href="https://discord.gg/uG92JZJn"><img src="img/discord.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
