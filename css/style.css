@@ -179,6 +179,7 @@ header .logo
   top: 0;
   right: 0;
   width: 300px;
+  font-family: "Gilroy-Bold";
   height: 100%;
   display: flex;
   justify-content: center;
