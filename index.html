@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+          <script>
+function cb(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/allayland.fun/visits?callback=cb"></script>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript">
@@ -52,12 +58,7 @@
       <li><a href="https://youtube.com/jaer1337" target="_blank"><img src="img/yt.png"></a></li>
       <li><a href="https://vk.com/allayland" target="_blank"><img src="img/vk.png"></a></li>
       <li><a href="https://discord.gg/rTSXEDfXq4" target="_blank"><img src="img/discord.png"></a></li>
-        <script>
-function cb(response) {
-    document.getElementById('visits').innerText = response.value;
-}
-</script>
-<script async src="https://api.countapi.xyz/hit/allayland.fun/visits?callback=cb"></script>
+      <li><div id="visits">...</div></li>
     </ul>
   </section>
   <div class="menu">
