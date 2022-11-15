@@ -178,6 +178,7 @@ hr {
 .grid {
 	width: auto;
 	display: grid;
+	margin-top: 5px; margin-bottom: 5px;
     grid-template-areas:
     ". . .";
 	overflow: hidden;
