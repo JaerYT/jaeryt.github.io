@@ -10,7 +10,9 @@
 	font-family: 'Gilroy-Bold';
 	box-sizing: border-box;
 }
-
+.dxxx{
+	margin-bottom: 5px;
+}
 @font-face {
 	font-family: raleway_f;
 	src: url(../fonts/raleway-regular.woff2);
